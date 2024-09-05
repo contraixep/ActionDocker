@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     environment:
       DISK_SIZE: "128G"
-      RAM_SIZE: "14G"
+      RAM_SIZE: "12G"
       CPU_CORES: "8"
       DISK_TYPE: "ide"
       ARGUMENTS: "-drive file=/driver.iso,media=cdrom"
